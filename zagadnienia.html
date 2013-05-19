@@ -118,14 +118,29 @@ Na koniec zaprezentuje testy wydajnościowe obydwu bibliotek z użyciem narzędz
 
 
         <!--############################################################-->
-        <h2 id="arquillian">Arquillian i benchmarki</h2>
+        <h2 id="arquillian">Arquillian</h2>
         <h3>Motywacja</h3>
         <p>
-            TBD
+            Z reguły w naszym projektach testujemy nie to co przetestować trzeba, ale to co przetestować łatwo. Zwykle wynika to z braku odpowiednich narzędzi do skupienia się na tym pierwszym elemencie. I tu z pomocą przychodzi nam Arquillian, który będzie motywem przewodnim tej kata.
         </p>
         <h3>Scenariusz</h3>
         <p>
-            TBD
+            W ramach tej kata zajmiemy się testowaniem integracyjnym przy użyciu narzędzia Arquillian. Nauczymy się dobierać i konfigurować potrzebne nam komponenty biblioteki. Następnie napiszemy kilka testów, zajmujących się weryfikacją różnych warstw naszej aplikacji - począwszy od JPA at na UI kończąc.
+        </p>
+        <h3>Autor</h3>
+        <p>
+            Kuba Kubryński
+        </p>
+        
+        <!--############################################################-->
+        <h2 id="arquillian">Microbenchmarks</h2>
+        <h3>Motywacja</h3>
+        <p>
+            Często w projekcie stajemy przed koniecznością wyboru jednej z kilku możliwych wersji danego rozwiąznia. Jak sprawdzić, która z nich wydajniej poradzi sobie na produkcji? Jak zapewnić aby wyniki naszych testów były miarodajne i nie zniekształcone przez złożoność JVM?
+        </p>
+        <h3>Scenariusz</h3>
+        <p>
+            Podczas tej kata nauczymy się jak prawidłowo tworzyć microbenchmarki, czyli testy weryfikujące wydajność małych fragmentów kodu. Przy okazji pobawimy się w pogromców mitów i odpowiemy sobie na kilka pytań, m.in. czy StringBuilder faktycznie jest szybszy niż StringBuffer, jak to ma się do operatora konkatenacji, czy bloki catch są wolne, jak jakośc hashCode wpływa na operacje w HashMapie, itd
         </p>
         <h3>Autor</h3>
         <p>
