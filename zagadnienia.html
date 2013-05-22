@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -157,33 +157,34 @@ Na koniec zaprezentuje testy wydajnościowe obydwu bibliotek z użyciem narzędz
         <h2 id="tddj">TDD - Krzysztof Jelski</h2>
         <h3>Motywacja</h3>
         <p>
-            TBD
+            Jeśli napotkasz zespół praktykujący TDD, możesz w dowolnej chwili wskazać dowolną osobę z tego zespołu i mieć pewność, że najdalej minutę temu cały kod stworzony przez tę osobę <a href="http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd">działał</a>. Ale to nie wszystko. Gdy zaczniesz stosować TDD stanie się też wiele innych rzeczy. Nauczysz się tworzyć nowe rodzaje testów, bo będziesz czuł się niekomfortowo z pisaniem kodu bez nieprzechodzącego testu. Twój kod będzie wyglądał dużo lepiej. Poczujesz się pewniej i bezpieczniej jako deweloper.
+            Chcę pokazać, dlaczego TDD jest tak istotnym elementem warsztatu programisty i czym się różni od pisania testów.
         </p>
         <h3>Scenariusz</h3>
         <p>
-            TBD
+            Tworząc niewielki projekt w Javie będziemy trzymać się dyscypliny TDD. Zaobserwujemy, jak wpłynie to na nasz kod, rozumienie dziedziny. I zobaczymy, co jeszcze się stanie. Na koniec pokażę kilka zaawansowanych testów udowadniając, że nie ma kodu nietestowalnego.
         </p>
         <h3>Autor</h3>
         <p>
-            Krzysztof Jelski
+            Krzysztof Jelski spotkał się z TDD po raz pierwszy w 2005 roku i od tego czasu praktykuje tę technikę i uczy jej innych. Test-drive'uje głównie w Javie, w C# i w Ruby. Gdy nie koduje, pomaga zespołom jako Agile Coach. Pracuje w <a href="http://pragmatists.pl/">Pragmatists</a>. Bloguje na <a href="http://agile.waw.pl/">http://agile.waw.pl/</a>. Mąż, ojciec, rowerzysta.
         </p>
 
         <!--############################################################-->
-        <h2 id="tddn">TDD - Kuba Nabrdalik</h2>
+        <h2 id="tddn">TDD - Jakub Nabrdalik</h2>
         <h3>Motywacja</h3>
         <p>
             10 lat po ponownych odkryciu TDD przez Kenta Becka, można w końcu powiedzieć że znalazły się w mainstreamie. Dziś każdy programista albo już pisze testy, albo wie że musi się nauczyć je pisać. Niestety, wielu developerów zaczyna naukę od narzędzia (JUnit, whatever) i zatrzymuje się na tym etapie, nigdy naprawdę nie przyswajając TDD.<br/>
-Na tym warsztacie postaramy się skupić na mindsecie TDD i na tym czym TDD różni się od pisania testów.<br/>
-Wymagany poziom wiedzy: żaden. Nawet jeśli dopiero musisz nauczyć się pisać testy, możesz skorzystać z warsztatu. Jeśli natomiast używasz TDD na codzień, to ten warsztat może Cię znudzić.
+            Na tym warsztacie postaramy się skupić na mindsecie TDD i na tym czym TDD różni się od pisania testów. Wymagany poziom wiedzy: żaden. Nawet jeśli dopiero musisz nauczyć się pisać testy, możesz skorzystać z warsztatu. Jeśli natomiast używasz TDD na codzień, to ten warsztat może Cię znudzić.
         </p>
         <h3>Scenariusz</h3>
         <p>
-            Zaczniemy od krótkiego wprowadzenia w TDD, o co w nim chodzi i jak się to robi. Potem zaczniemy implementować pewne wymagania przy użyciu TDD.  Zobaczymy gdzie nas to prowadzi. Na koniec pokażę rodzaje popełnianych często błędów i jak się przed nimi zabezpieczyć.<br/>
-Będziemy używać Javy i Grooviego.
+            Zaczniemy od krótkiego wprowadzenia w TDD, o co w nim chodzi i jak się to robi. Potem zaczniemy implementować pewne wymagania przy użyciu TDD. Zobaczymy gdzie nas to prowadzi. Na koniec pokażę rodzaje popełnianych często błędów i jak się przed nimi zabezpieczyć.<br />
+            Będziemy używać Javy i Grooviego.
         </p>
         <h3>Autor</h3>
         <p>
-            Kuba Nabrdalik - Jakub Nabrdalik praktykuje TDD od 2005 roku. Od 5 lat pracuje w TouK (touk.pl), od 4 udziela się na konferencjach, pomaga organizować WJUGa i generalnie wszędzie go pełno.
+            Jakub Nabrdalik - praktykuje TDD od 2005 roku. Od 5 lat pracuje w <a href="http://touk.pl">TouK</a>, od 4 udziela się na konferencjach, pomaga organizować WJUGa i generalnie wszędzie go pełno. <br/>
+            Bloguje na <a href="http://blog.solidcraft.eu"/> blog.solidcraft.eu</a>. Więcej info <a href="http://solidcraft.eu">na stronie</a>
         </p>
 
         <!--############################################################-->
@@ -205,15 +206,23 @@ Będziemy używać Javy i Grooviego.
         <h2 id="geb">Geb</h2>
         <h3>Motywacja</h3>
         <p>
-            TBD
+            Wiele osób spotkało się z Selenium jako narzędziem do testowania
+            funkcjonalego. Geb używa Selenium, ale w połączeniu z Groovym, pisanie testów
+            staje się bardzo przyjemne. Postaram się to udowodnić.
         </p>
         <h3>Scenariusz</h3>
         <p>
-            TBD
+            Na przykładowej aplikacji przetestujemy kilka scenariuszy za pomocą Geba.
+            Pokażę jak poprawnie skonstruować testy funkcjonalne przy użyciu Page Object
+            Model oraz pokazać udogodnienia jakie niesie ze sobą użycie Grooviego.
         </p>
         <h3>Autor</h3>
         <p>
-            Tomasz Kalkosiński
+            Tomasz Kalkosiński - Aktualnie pracuję w TouK. Od półtora roku codziennie
+            toczę boje z frameworkiem Grails i testuję granice "convention over
+            configuraion", o których informuję na
+            swoim blogu (http://refaktor.blogspot.com). W wolnym czasie eksperymentuję w
+            Railsach.
         </p>
 
         <!--############################################################-->
