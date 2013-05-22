@@ -108,19 +108,34 @@ Na koniec zaprezentuje testy wydajnościowe obydwu bibliotek z użyciem narzędz
         </p>
 
         <!--############################################################-->
-        <h2 id="festelRoboElectric">FEST (+Fest-android) i Robospock/Robolectric (Android)</h2>
+        <h2 id="festCurious">FEST Assertions - ciekawe implementacje</h2>
         <h3>Motywacja</h3>
         <p>
-            TBD
+            Asercje FESTa stają się coraz popularniejsze. Programiści dzielą się na tych, którzy je używają i tych, którzy jeszcze ich nie używają. Obydwie grupy chciałbym zachęcić do nauki przez zabawę w implementację nieco bardziej zawiłych przykładów. Przy okazji chciałbym zarazić was testowaniem wykorzystującym analizę statyczną kodu.
         </p>
         <h3>Scenariusz</h3>
         <p>
-            TBD
+            Spróbujemy zaimplementować asercje sprawdzające obiekty "nie wprost", a więc testujące np. istnienie adnotacji (na fieldach/metodach) czy określone elementy tablic (na przykładzie DataProviderów dla testów przy użyciu technologii TestNG). Zajęcia nie wymagają znajomośći żadnej z wymienionych technologii.
         </p>
         <h3>Autor</h3>
         <p>
-            Mateusz Grzechociński
+            Jacek Kiljański. Programista Javy od 5 lat, od 2 lat w JAVART. Zwolennik tezy, że "dobry kod to taki, którego rozumie inny programista, niekoniecznie maszyna". Przez to jest wielkim zwolennikiem testów jednostkowych i code-review. W codziennej pracy ideologiczne zapędy stara się godzić z pragmatycznym podejściem w tworzeniu oprogramowania.
         </p>
+        
+        <!--############################################################-->
+        <h2 id="testable">Kod łatwy do testowania</h2>
+        <h3>Motywacja</h3>
+        <p>
+			Wraz z coraz bardziej dokładnym pisaniem testów, nauczyłem się, że ich pisanie może boleć. Trwa to długo i jest ciężko utrzymywalne. Po tygodniach zaciskania zębów w drodze do osiągnięcia wysokiego pokrycia kodu testami, zrozumiałem jedno: zły kod produkcyjny powoduje powstawanie złych testów. A kiedy testy są złe, to wiedz, że coś się dzieje. Na podstawie prostych przykładów, które razem zaimplementujemy pokażę wam, jakich złych praktyk powinniśmy unikać, a jakie działania pozwolą nam oszczędzić czas i nerwy podczas pisania testów. Wiąże się to praktykami TDD, na co będziemy zwracać uwagę. Dużą uwagę przywiążemy też do zasady, że testy jednostkowe powinny testować jedną i tylko jedną klasę.
+        </p>
+        <h3>Scenariusz</h3>
+        <p>
+            Do przygotowanego service'u napiszemy prosty test. Następnie próbując dodać więcej logiki produkcyjnej zrobimy refactoring zarówno klasy testowanej jak i testowej, tak, aby osiągnąć prawdziwe testy jednostkowe.
+        </p>
+        <h3>Autor</h3>
+        <p>
+            Jacek Kiljański. Programista Javy od 5 lat, od 2 lat w JAVART. Zwolennik tezy, że "dobry kod to taki, którego rozumie inny programista, niekoniecznie maszyna". Przez to jest wielkim zwolennikiem testów jednostkowych i code-review. W codziennej pracy ideologiczne zapędy stara się godzić z pragmatycznym podejściem w tworzeniu oprogramowania.
+        </p>        
 
 
         <!--############################################################-->
